@@ -51,7 +51,7 @@ function About() {
       <div className="about-text">
         <h2>About Me</h2>
         <p>
-          I am a passionate developer with experience in building modern web applications. I love learning new technologies and creating beautiful, functional user experiences. This is a placeholder paragraph—replace it with your own story, skills, and interests!
+          Yo! My name is Martin, I'm a 3D artist, game developer,
         </p>
       </div>
     </div>
