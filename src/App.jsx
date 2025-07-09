@@ -2,9 +2,13 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home'
 import About from './components/About'
-import Projects from './components/ProjectSniper'
+import Projects from './components/Projects'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+import ProjectSniper from './components/ProjectSniper'
+import ProjectRobot from './components/ProjectRobot'
+import ProjectRaven from './components/ProjectRaven'
+import ProjectSciFiCity from './components/ProjectSci-FiCity'
 
 function App() {
   return (
@@ -23,7 +27,7 @@ function App() {
         <div className="particle"></div>
         <div className="particle"></div>
       </div>
-      
+
       <div className="floating-shapes">
         <div className="shape"></div>
         <div className="shape"></div>
@@ -53,6 +57,10 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/project-robot" element={<ProjectRobot />} />
+          <Route path="/project-raven" element={<ProjectRaven />} />
+          <Route path="/project-sniper" element={<ProjectSniper />} />
+          <Route path="/project-sci-fi-city" element={<ProjectSciFiCity />} />
         </Routes>
       </main>
     </div>
