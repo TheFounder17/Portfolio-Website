@@ -2,7 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home'
 import About from './components/About'
-import Projects from './components/Projects'
+import Projects from './components/ProjectSniper'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 
