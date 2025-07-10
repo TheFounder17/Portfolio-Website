@@ -3,12 +3,12 @@ import './App.css'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
-import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import ProjectSniper from './components/ProjectSniper'
 import ProjectRobot from './components/ProjectRobot'
-import ProjectRaven from './components/ProjectRaven'
+import ProjectSciFiHelicopter from './components/ProjectSci-FiHelicopter'
 import ProjectSciFiCity from './components/ProjectSci-FiCity'
+import Tools from './components/Tools'
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
+          <li><Link to="/tools">Tools</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
@@ -55,18 +55,28 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/tools" element={<Tools />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project-robot" element={<ProjectRobot />} />
-          <Route path="/project-raven" element={<ProjectRaven />} />
+          <Route path="/project-sci-fi-helicopter" element={<ProjectSciFiHelicopter />} />
           <Route path="/project-sniper" element={<ProjectSniper />} />
           <Route path="/project-sci-fi-city" element={<ProjectSciFiCity />} />
         </Routes>
       </main>
+      
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src="public/purused-logo.png" alt="Pursued Logo" className="footer-pursued-logo" />
+          </div>
+          <div className="footer-text">
+            <p>&copy; 2025 Martin Djambazov. All rights reserved.</p>
+            <p>Portfolio Website - 3D Artist & Developer</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
-
-
 
 export default App

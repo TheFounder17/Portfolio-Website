@@ -15,7 +15,7 @@ function Projects() {
       <div className="project-card">
         <h2>Chereshka Store</h2>
         <p>Group project that uses 3D models instead of images and has a special "outfit maker" feature</p>
-        <a href="https://your-3d-portfolio.com" target="_blank" rel="noopener noreferrer" className="project-btn">Visit Site</a>
+        <a href="https://mariaaivanova.github.io/OnlineShop.github.io/" target="_blank" rel="noopener noreferrer" className="project-btn">Visit Site</a>
       </div>
 
       <div className="project-card">
@@ -31,9 +31,9 @@ function Projects() {
       </div>
 
       <div className="project-card">
-        <h2>Raven</h2>
-        <p>My first ever stylized humanoid character model</p>
-        <Link to="/project-raven" className="project-btn">Visit Site</Link>
+        <h2>Sci-Fi Helicopter</h2>
+        <p>Detailed 3D model of a futuristic helicopter with sci-fi design elements.</p>
+        <Link to="/project-sci-fi-helicopter" className="project-btn">Visit Site</Link>
       </div>
 
       <div className="project-card">
