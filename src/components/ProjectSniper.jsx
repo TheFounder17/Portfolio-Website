@@ -3,7 +3,7 @@ import { OrbitControls } from '@react-three/drei';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 
 function SniperModel() {
-  const obj = useLoader(OBJLoader, 'public/3d-models/sniper-model.obj');
+  const obj = useLoader(OBJLoader, '/Portfolio-Website/3d-models/sniper-model.obj');
   return <primitive object={obj} scale={1.5} />;
 }
 
@@ -29,10 +29,10 @@ function ProjectSniper() {
       </div>
       <div className="sniper-images-container">
         <div className="sniper-image-box">
-          <img src="public/3d-projects-renders/sniper-render1.png" alt="Sniper Render 1" className="sniper-image" />
+          <img src="/Portfolio-Website/3d-projects-renders/sniper-render1.png" alt="Sniper Render 1" className="sniper-image" />
         </div>
         <div className="sniper-image-box">
-          <img src="public/3d-projects-renders/sniper-render2.png" alt="Sniper Render 2" className="sniper-image" />
+          <img src="/Portfolio-Website/3d-projects-renders/sniper-render2.png" alt="Sniper Render 2" className="sniper-image" />
         </div>
       </div>
       <p className="sniper-description">

@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home-container">
       <img
-        src="public\home-image.png"
+        src="/Portfolio-Website/home-image.png"
         alt="Profile"
         className="profile-pic"
       />

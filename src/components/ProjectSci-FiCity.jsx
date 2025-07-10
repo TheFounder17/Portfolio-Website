@@ -4,7 +4,7 @@ function ProjectSciFiCity() {
             <h1>Sci-Fi City</h1>
             <div className="city-video-container">
                 <video 
-                    src="public/3d-projects-renders/sci-fi-test.mp4" 
+                    src="/Portfolio-Website/3d-projects-renders/sci-fi-test.mp4" 
                     className="city-video" 
                     controls 
                     autoPlay 

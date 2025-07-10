@@ -4,7 +4,7 @@ function ProjectRobot() {
             <h1>Sci-Fi War Robot</h1>
             <div className="robot-image-container">
                 <img 
-                    src="public/3d-projects-renders/war-robot.png" 
+                    src="/Portfolio-Website/3d-projects-renders/war-robot.png" 
                     alt="War Robot Render" 
                     className="robot-image"
                 />

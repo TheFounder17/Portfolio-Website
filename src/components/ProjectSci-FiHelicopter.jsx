@@ -4,7 +4,7 @@ function ProjectSciFiHelicopter() {
             <h1>Sci-Fi Helicopter</h1>
             <div className="helicopter-image-container">
                 <img 
-                    src="public/3d-projects-renders/sci-fi-helicopter.png" 
+                    src="/Portfolio-Website/3d-projects-renders/sci-fi-helicopter.png" 
                     alt="Sci-Fi Helicopter Render" 
                     className="helicopter-image"
                 />

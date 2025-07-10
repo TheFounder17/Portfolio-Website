@@ -67,7 +67,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="public/purused-logo.png" alt="Pursued Logo" className="footer-pursued-logo" />
+            <img src="/Portfolio-Website/purused-logo.png" alt="Pursued Logo" className="footer-pursued-logo" />
           </div>
           <div className="footer-text">
             <p>&copy; 2025 Martin Djambazov. All rights reserved.</p>

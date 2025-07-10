@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about-container">
       <img
-        src= "public\about-me-image.jpg"
+        src="/Portfolio-Website/about-me-image.jpg"
         alt="About Placeholder"
         className="about-pic"
       />
