@@ -1,3 +1,5 @@
+import sniperimg1 from '/3d-projects-renders/sniper-render1.png'
+import sniperimg2 from '/3d-projects-renders/sniper-render2.png'
 import { Canvas, useLoader } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
@@ -29,10 +31,10 @@ function ProjectSniper() {
       </div>
       <div className="sniper-images-container">
         <div className="sniper-image-box">
-          <img src="/Portfolio-Website/3d-projects-renders/sniper-render1.png" alt="Sniper Render 1" className="sniper-image" />
+          <img src={sniperimg1} alt="Sniper Render 1" className="sniper-image" />
         </div>
         <div className="sniper-image-box">
-          <img src="/Portfolio-Website/3d-projects-renders/sniper-render2.png" alt="Sniper Render 2" className="sniper-image" />
+          <img src={sniperimg2} alt="Sniper Render 2" className="sniper-image" />
         </div>
       </div>
       <p className="sniper-description">

@@ -1,10 +1,12 @@
+import helicopterimg from '/3d-projects-renders/sci-fi-helicopter.png'
+
 function ProjectSciFiHelicopter() {
     return(
         <div className="project-sci-fi-helicopter">
             <h1>Sci-Fi Helicopter</h1>
             <div className="helicopter-image-container">
                 <img 
-                    src="/Portfolio-Website/3d-projects-renders/sci-fi-helicopter.png" 
+                    src={helicopterimg} 
                     alt="Sci-Fi Helicopter Render" 
                     className="helicopter-image"
                 />

@@ -1,4 +1,4 @@
-import myvideo from 'public/3d-projects-renders/sci-fi-test.mp4'
+import testscene from '/3d-projects-renders/sci-fi-test.mp4'
 
 function ProjectSciFiCity() {
     return(
@@ -6,7 +6,7 @@ function ProjectSciFiCity() {
             <h1>Sci-Fi City</h1>
             <div className="city-video-container">
                 <video 
-                    src={myvideo}
+                    src={testscene}
                     className="city-video" 
                     controls 
                     autoPlay 

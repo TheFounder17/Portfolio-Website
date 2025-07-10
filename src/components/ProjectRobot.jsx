@@ -1,10 +1,12 @@
+import robotimg from '/3d-projects-renders/war-robot.png'
+
 function ProjectRobot() {
     return(
         <div className="project-robot">
             <h1>Sci-Fi War Robot</h1>
             <div className="robot-image-container">
                 <img 
-                    src="/Portfolio-Website/3d-projects-renders/war-robot.png" 
+                    src={robotimg} 
                     alt="War Robot Render" 
                     className="robot-image"
                 />

@@ -1,10 +1,10 @@
-import profilePlaceholder from '../assets/react.svg'
+import homeimg from '/home-image.png'
 
 function Home() {
   return (
     <div className="home-container">
       <img
-        src="/Portfolio-Website/home-image.png"
+        src= {homeimg}
         alt="Profile"
         className="profile-pic"
       />

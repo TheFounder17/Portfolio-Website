@@ -1,10 +1,10 @@
-import profilePlaceholder from '../assets/react.svg'
+import aboutmeimg from '/about-me-image.jpg'
 
 function About() {
   return (
     <div className="about-container">
       <img
-        src="/Portfolio-Website/about-me-image.jpg"
+        src= {aboutmeimg}
         alt="About Placeholder"
         className="about-pic"
       />
