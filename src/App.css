@@ -422,7 +422,7 @@ main {
 }
 
 .profile-pic {
-  z-index: 1000;
+  z-index: 10;
   width: 350px;
   height: 350px;
   border-radius: 50%;
